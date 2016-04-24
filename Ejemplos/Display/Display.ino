@@ -5,7 +5,7 @@
 
 dht DHT;
 
-#define DHT11_PIN 2
+#define DHT11_PIN 7
 
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
@@ -80,9 +80,9 @@ void loop() {
           else
           {
             lcd.setCursor(1,0);
-              lcd.print("ERROR");
+              lcd.print("ERR");
           
           }
 
-          delay(2000);
+          delay(3000);
 }
