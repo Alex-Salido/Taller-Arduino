@@ -2,7 +2,7 @@
 
 dht DHT;
 
-#define DHT11_PIN 5
+#define DHT11_PIN 7
 
 void setup()
 {
